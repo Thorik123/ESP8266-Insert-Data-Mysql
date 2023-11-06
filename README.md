@@ -6,7 +6,7 @@
 
 ## How To Works?
 
-- Ada dua Methode dalam pengiriman data, yaitu methode `GET` dan methode `POST`. Tinggal disesuaikan lebih nyaman pakai yang mana
+- Ada dua Methode dalam pengiriman data, yaitu methode `GET` dan methode `POST`. Tinggal disesuaikan lebih nyaman pakai yang mana.
 - Sebagai contoh data yang dikirim adalah nilai `suhu` dan `kelembaban`.
 - Untuk data yang dikirim bisa apa saja tetapi pastikan untuk parameter yang ada didalam table sesuai dengan jenis data yang dikirim dari device(ESP8266).
 
@@ -14,9 +14,9 @@
 
 ## Persiapan
 
-- Install Laragon atau XAMPP sebagai server localhost
-- Install Code Editor, bisa pakai Visual Stdudio Code, Sublime Text atau editor yang lain
-- Buka panel `phpmyadmin` lalu buat database baru dengan nama `esp_log` lalu import file `esp_log.sql` yang ada didalam folder MYSQl
+- Install Laragon atau XAMPP sebagai server localhost.
+- Install Code Editor, bisa pakai Visual Stdudio Code, Sublime Text atau editor yang lain.
+- Buka panel `phpmyadmin` lalu buat database baru dengan nama `esp_log` lalu import file `esp_log.sql` yang ada didalam folder MYSQl.
 
 ---
 
@@ -61,5 +61,11 @@
 ### Catatan!
 
 - Perhatikan versi php yang digunakan, Project ini sudah ditest di php versi `8.1.10` dan berjalan dengan baik. Adapun jika menggunakan versi php yang berbeda mungkin perlu adanya perubahan pada bagian program php-nya.
+- Editor
+  - ArduinoIDE 2.2.1
+- Board ESP8266 by ESP8266 Community
+  - Version 3.1.2
+- Library
+  - ArduinoJson version 6.21.3
 
 ---
